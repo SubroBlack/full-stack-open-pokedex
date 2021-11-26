@@ -19,11 +19,11 @@ jobs:
     steps: 
       - name: Print Date and Time
         run: |
-          echo "It is " --date " now"
+          --date
         
   Repo: 
     runs-on: ubuntu-latest
     steps: 
       - name: What we have in Repo
         run: |
-          echo ls
+          ls
