@@ -13,3 +13,17 @@ jobs:
       - name: Say Hello 
         run: |
           echo "Hello Peeps ;D"
+
+  Date and Time: 
+    runs-on: ubuntu-18.04
+    steps: 
+      - name: Print Date and Time
+        run: |
+          echo "It is " --date " now"
+        
+  Repo: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: What we have in Repo
+        run: |
+          echo ls
