@@ -1,0 +1,14 @@
+---
+# GitHub Action Workflow file to print the Hello World
+name: Hello World!
+on: 
+  push: 
+    branches:
+      - master
+
+jobs: 
+  hello_world_job: 
+    steps: 
+      - name: Say Hello 
+        run: |
+          echo "Hello Peeps ;D"
