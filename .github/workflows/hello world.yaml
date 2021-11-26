@@ -19,7 +19,7 @@ jobs:
     steps: 
       - name: Print Date and Time
         run: |
-          --date
+          date
         
   Repo: 
     runs-on: ubuntu-latest
