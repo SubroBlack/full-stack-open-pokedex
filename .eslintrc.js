@@ -48,8 +48,5 @@ module.exports = {
     ],
     "no-console": 0,
     "react/prop-types": 0
-  },
-  "globals": {
-    "cy": "off",
   }
 }
