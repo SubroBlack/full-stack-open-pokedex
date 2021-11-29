@@ -19,4 +19,5 @@ jobs:
           healthcheck: "https://black-cicd.herokuapp.com/health"
           checkstring: "ok"
           delay: 5
+          rollbackonhealthcheckfailed: true
 ...
