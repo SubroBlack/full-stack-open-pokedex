@@ -11,9 +11,11 @@ app.listen(PORT, () => {
 })
 
 // The endpoint to ensure the app is up and running
+/*
 app.get('/health', (req, res) => {
   res.send('ok')
 })
+*/
 
 // Endpoint to check up on the versions
 app.get('/version', (req, res) => {
