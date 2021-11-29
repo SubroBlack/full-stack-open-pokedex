@@ -16,4 +16,5 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: black-cicd
           heroku_email: ${{secrets.EMAIL}}
+          healthcheck: "https://black-cicd.herokuapp.com/health
 ...
