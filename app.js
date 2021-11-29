@@ -10,7 +10,7 @@ app.listen(PORT, () => {
   console.log('server started on port 5000')
 })
 
-// The endpoint to ensure the app is up and running 
+// The endpoint to ensure the app is up and running
 app.get('/health', (req, res) => {
   res.send('ok')
 })
