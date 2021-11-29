@@ -17,4 +17,6 @@ jobs:
           heroku_app_name: black-cicd
           heroku_email: ${{secrets.EMAIL}}
           healthcheck: "https://black-cicd.herokuapp.com/health"
+          checkstring: "ok"
+          delay: 5
 ...
